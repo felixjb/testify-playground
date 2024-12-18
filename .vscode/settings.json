@@ -1,0 +1,6 @@
+{
+  "testify.testRunnerPath": "node_modules/.bin/vitest",
+  "testify.additionalArgs": "--hideSkippedTests",
+  "testify.autoClear": true,
+  "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+}
