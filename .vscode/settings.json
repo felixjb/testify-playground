@@ -1,6 +1,8 @@
 {
-  "testify.testRunnerPath": "node_modules/.bin/vitest",
-  "testify.additionalArgs": "--hideSkippedTests",
+  // "testify.testRunnerPath": "/Users/felixjb/.nvm/versions/node/v22.11.0/bin/node",
+  // "testify.additionalArgs": "--experimental-strip-types",
+  "testify.testRunnerPath": "node_modules/.bin/jest",
   "testify.autoClear": true,
-  "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+  "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+  "testify.excludePatterns": [],
 }
