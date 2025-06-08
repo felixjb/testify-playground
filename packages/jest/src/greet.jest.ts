@@ -1,4 +1,4 @@
-import { greet } from "../src/greet.js";
+import { greet } from "@playground/core";
 
 describe("greet", () => {
   it("should return a greeting for the given name", () => {

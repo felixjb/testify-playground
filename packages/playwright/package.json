@@ -1,0 +1,23 @@
+{
+  "name": "@playground/playwright",
+  "description": "Playwright testing playground",
+  "version": "1.0.0",
+  "author": "felixjb",
+  "license": "MIT",
+  "type": "module",
+  "engineStrict": true,
+  "engines": {
+    "node": "^22.16.0",
+    "npm": "^10.9.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --build",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "playwright": "^1.57.0",
+    "@playground/core": "*"
+  }
+}

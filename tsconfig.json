@@ -1,31 +1,13 @@
 {
-  "compilerOptions": {
-    /* Base Options: */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-
-    /* Strictness */
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-
-    /* If transpiling with TypeScript: */
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "outDir": "dist",
-    "sourceMap": true,
-
-    /* If your code doesn't run in the DOM: */
-    "lib": ["ESNext"],
-
-    "types": ["node", "jest", "mocha", "chai"]
-  },
-  "include": ["src/**/*", "test/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "files": [],
+  "references": [
+    { "path": "packages/ava" },
+    { "path": "packages/core" },
+    { "path": "packages/jasmine" },
+    { "path": "packages/jest" },
+    { "path": "packages/mocha" },
+    { "path": "packages/node" },
+    { "path": "packages/playwright" },
+    { "path": "packages/vitest" }
+  ]
 }

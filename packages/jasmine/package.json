@@ -1,0 +1,24 @@
+{
+  "name": "@playground/jasmine",
+  "description": "Jasmine testing playground",
+  "version": "1.0.0",
+  "author": "felixjb",
+  "license": "MIT",
+  "type": "module",
+  "engineStrict": true,
+  "engines": {
+    "node": "^22.16.0",
+    "npm": "^10.9.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --build",
+    "pretest": "npm run build",
+    "test": "jasmine --config=jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^5.1.13",
+    "jasmine": "^5.13.0",
+    "@playground/core": "*"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@playground/vitest",
+  "description": "Vitest testing playground",
+  "version": "1.0.0",
+  "author": "felixjb",
+  "license": "MIT",
+  "type": "module",
+  "engineStrict": true,
+  "engines": {
+    "node": "^22.16.0",
+    "npm": "^10.9.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.16",
+    "@playground/core": "*"
+  }
+}

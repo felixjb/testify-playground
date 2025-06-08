@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 export default defineConfig({
-  testDir: "./test",
+  testDir: "./src",
   testMatch: "**/*.playwright.ts",
   reporter: "list",
   projects: [

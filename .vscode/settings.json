@@ -1,8 +1,12 @@
 {
-  // "testify.testRunnerPath": "/Users/felixjb/.nvm/versions/node/v22.11.0/bin/node",
-  // "testify.additionalArgs": "--experimental-strip-types",
-  "testify.testRunnerPath": "node_modules/.bin/jest",
   "testify.autoClear": true,
+  "testify.executablePath": "/Users/felixjb/.nvm/versions/node/v22.11.0/bin/node",
+  "testify.args": ["--experimental-strip-types"],
+  // "testify.executablePath": "node_modules/.bin/vitest",
+  // "testify.entryPointPath": "node_modules/vitest/vitest.mjs",
+  // "testify.args": ["--testTimeout=0"],
   "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-  "testify.excludePatterns": [],
+  "testify.env": {
+    "NODE": "production"
+  }
 }

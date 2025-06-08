@@ -6,9 +6,9 @@ export default {
   typescript: {
     extensions: ["ts"],
     rewritePaths: {
-      "test/": "dist/test/",
+      "src/": "dist/",
     },
     compile: false,
   },
-  files: ["test/**/*.ava.ts"],
+  files: ["src/**/*.ava.ts"],
 };
