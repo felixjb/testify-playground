@@ -1,5 +1,0 @@
-{
-  "spec_dir": "dist",
-  "spec_files": ["**/*.jasmine.js"],
-  "helpers": ["../../node_modules/ts-node/register/transpile-only.js"]
-}

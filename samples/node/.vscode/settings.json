@@ -1,0 +1,6 @@
+{
+  "testify.autoClear": true,
+  "testify.executablePath": "node", // Update with the absolute path to your Node.js executable
+  "testify.args": ["--experimental-loader=ts-node/esm", "--test"],
+  "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+}

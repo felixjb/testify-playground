@@ -1,8 +1,10 @@
 .DS_Store
-*.tsbuildinfo
 dist
 node_modules
-/blob-report/
-/playwright-report/
-/playwright/.cache/
-/test-results/
+
+*.tsbuildinfo
+
+**/blob-report/
+**/playwright-report/
+**/playwright/.cache/
+**/test-results/

@@ -1,0 +1,26 @@
+{
+  "name": "@playground/mocha",
+  "description": "Mocha testing playground",
+  "version": "1.0.0",
+  "author": "felixjb",
+  "license": "MIT",
+  "type": "module",
+  "engineStrict": true,
+  "engines": {
+    "node": "^22.16.0",
+    "npm": "^10.9.2"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.30",
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

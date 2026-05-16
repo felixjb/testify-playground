@@ -1,0 +1,5 @@
+{
+  "testify.autoClear": true,
+  "testify.args": ["--testTimeout=0"],
+  "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+}

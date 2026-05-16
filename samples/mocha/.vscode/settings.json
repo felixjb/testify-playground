@@ -1,0 +1,5 @@
+{
+  "testify.autoClear": true,
+  "testify.args": ["--require=ts-node/esm"],
+  "testify.skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+}
