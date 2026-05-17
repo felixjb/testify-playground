@@ -20,6 +20,6 @@ You need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.c
 ## Getting Started
 
 1. Clone this repository
-2. Open a sample subdirectory in VSCode (e.g., `code samples/jest`)
+2. Open a sample subdirectory in VSCode - e.g., `code jest`
 3. Install dependencies: `npm install`
 4. Explore the Testify extension features with the sample tests
